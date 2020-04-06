@@ -9,3 +9,9 @@ function draw() {
     bird.show()
     bird.update()
 }
+
+function keyPressed() {
+    if (key == ' '){
+        bird.up()
+    }
+}
